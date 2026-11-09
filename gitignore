@@ -1,0 +1,73 @@
+# --- Secrets and private environment configuration ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# --- Python build artifacts and caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Local virtual environments / notebooks ---
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Runtime ingestion output, local datasets, media, model weights ---
+/data/
+/datasets/
+/downloads/
+/storage/
+/uploads/
+/models/
+/cache/
+/hf_cache/
+/huggingface/
+*.jsonl.bak
+*.pdf.part
+*.tmp
+*.log
+logs/
+
+# --- Local database/storage files and Docker bind mounts ---
+*.sqlite
+*.sqlite3
+*.db
+postgres_data/
+qdrant_data/
+qdrant_storage/
+
+# --- Editor/OS generated files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Test/report output ---
+coverage.xml
+junit.xml
+pytest-report.xml
+
+# NOTE: Track examples/, docs/, .env.example, and all source files.
+# NOTE: gitignore does not protect files already tracked by Git.

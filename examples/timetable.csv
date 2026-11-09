@@ -1,0 +1,2 @@
+faculty_external_id,subject_code,subject_name,section_code,section_label,room_code,department_code,academic_year,semester,day_of_week,start_time,end_time,valid_from,valid_to,source_url
+DEMO001,CS101,Sample Operating Systems,CSE-3-A,CSE III A,C-204,CSE,2026-27,5,0,09:00,10:00,2026-07-01,2027-05-31,https://www.cbit.ac.in/

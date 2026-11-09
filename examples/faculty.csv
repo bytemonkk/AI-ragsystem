@@ -1,0 +1,2 @@
+external_id,name,department_code,department_name,designation,is_hod,image_url,profile_url
+DEMO001,Demo Faculty,CSE,Computer Science and Engineering,Assistant Professor,false,,https://www.cbit.ac.in/
